@@ -67,6 +67,11 @@
     &__dropdown {
       grid-row: 2;
       text-align: right;
+
+      &__image {
+        margin-left: 10px;
+        height: 12px;
+      }
     }
 
     &__image {

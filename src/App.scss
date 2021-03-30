@@ -1,0 +1,22 @@
+.App {
+  &__carousel {
+    margin: 20px 0;
+    &__title {
+      font-size: x-large;
+      margin: 0 20px;
+
+      &__show-more {
+        border: 0;
+        background-color: transparent;
+        color: #25c16a;
+        font-size: medium;
+        font-weight: bold;
+      }
+    }
+    &__products {
+      &__carousel {
+        height: 400px;
+      }
+    }
+  }
+}
